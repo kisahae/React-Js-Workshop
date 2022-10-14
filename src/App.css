@@ -1,0 +1,975 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.firstPage .App-header {
+  min-height: 50px !important;
+}
+
+.firstPage #mainNavbar {
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: space-between;
+  background-color: #ffffff;
+  width: 100%;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  position: fixed;
+  flex-wrap: wrap;
+  top: 0;
+}
+
+.firstPage #home {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.firstPage #home a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.firstPage .App-logo {
+  height: 50px;
+}
+
+.firstPage #nav-ul {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0px;
+}
+
+.firstPage #loginLink {
+  cursor: pointer;
+}
+
+
+.firstPage #introduction {
+  width: 100%;
+  height: 800px;
+  background-image: url(intro.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.firstPage #nav-ul a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.firstPage ul li {
+  list-style: none;
+}
+
+.firstPage .menu-toggle {
+  display: flex;
+  flex-direction: column;
+  height: 25px;
+  align-items: center;
+  justify-content: space-between;
+  display: none;
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+
+}
+
+.firstPage .menu-toggle span {
+  display: block;
+  height: 5px;
+  width: 30px;
+  background-color: #000000;
+  border-radius: 3px;
+}
+
+
+
+.firstPage .App-header {
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+}
+
+.firstPage .App-link {
+  color: #61dafb;
+}
+
+.firstPage h1 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+.firstPage #aboutUs {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.firstPage #aboutUs p {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+
+.firstPage #aboutUs h2 {
+  font-size: 3rem;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.firstPage #aboutOwner p {
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+
+.firstPage #aboutOwner h2 {
+  font-size: 3rem;
+  text-align: right;
+  text-decoration: underline;
+}
+
+.firstPage #descriptionUs {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+
+
+.firstPage #descriptionOwner {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.firstPage #descriptionImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstPage #aboutOwner {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.firstPage .aboutUs {
+  width: 400px;
+}
+
+.firstPage .aboutOwner {
+  width: 400px;
+}
+
+.firstPage footer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #2c333d;
+  color: white;
+  height: 200px;
+}
+
+.firstPage #socialmedia {
+  height: auto;
+  width: 35%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+.firstPage footer a {
+  font-size: 60px;
+  justify-content: center;
+}
+
+.firstPage #socialmedia a {
+  height: auto;
+  color: #ffffff;
+}
+
+.firstPage #footerText {
+  font-size: 1.5rem;
+
+}
+
+
+
+
+
+
+
+.firstPage #mainNavbar.scrolled {
+  background-color: #2c333d;
+  transition: background 1s;
+
+}
+
+.firstPage #mainNavbar .homeText.scrolledtext {
+  color: #ffffff;
+}
+
+
+.firstPage .menu-toggle-hamburger.hamburgerscrolled {
+  background-color: #FFFFFF;
+}
+
+.firstPage #home a:hover {
+  color: #fcbf49;
+}
+
+.firstPage #nav-ul a:hover {
+  color: #fcbf49;
+}
+
+
+
+
+
+
+
+.Login {
+  background-image: url('loginbackground.png');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login #register {
+  cursor: pointer;
+}
+
+.Login #loginPageContainer {
+  height: 600px;
+  background-color: rgb(15, 15, 15);
+  width: 50%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+
+
+.Login .labelInLogin {
+  color: white;
+}
+
+.Login .loginAppLogo {
+  width: 120px;
+}
+
+.Login h1 {
+  color: white;
+}
+
+.Login p {
+  color: white;
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+
+
+
+.Login #firstPart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Login #secondPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Login .buttonInLoginPage {
+  width: 30%;
+  height: 50px;
+  background-color: #0275d8;
+  color: white;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 1.1rem;
+}
+
+.Login #thirdPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Login #thirdPart a {
+  text-align: center;
+  color: #FFA740;
+}
+
+
+.Login .inputValuePassword {
+  height: 30px;
+  width: 350px;
+  border-radius: 6px;
+}
+
+
+.Login .inputValueUsername {
+  height: 30px;
+  width: 350px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+
+
+.Register #namaToko {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Register .registerLogo {
+  width: 90px;
+}
+
+
+
+
+
+.Home .navbar {
+  background: #ffffff;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  padding: 0px;
+}
+
+.Home .navbar-brand img {
+  width: 40px;
+}
+
+.Home .navbar-brand {
+  font-weight: bolder;
+}
+
+
+.Home #logoutLogo {
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.Home #cartLogo {
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+
+
+.Home #homeProduct {
+  display: inline-block;
+  flex-wrap: wrap;
+  width: 30%;
+}
+
+.Home h1 {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.Home #containerSearchProduct {
+  text-align: right;
+  display: flex;
+  justify-content: center;
+}
+
+.Home #searchProduct {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+
+.Home .inputSearch {
+  width: 500px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.Home #btnSearch {
+  width: 100px;
+  background: white;
+}
+
+.Home .btn {
+  background-color: #2c333d;
+}
+
+
+
+.Home .card-title {
+  display: block;
+}
+
+.Home .card {
+  height: 100%;
+}
+
+
+.Home #productContainer {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Home .btn {
+
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+
+
+.Home footer {
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #2c333d;
+  color: white;
+  height: 150px;
+}
+
+.Home #socialmedia {
+  height: auto;
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Home footer a {
+  font-size: 30px;
+  justify-content: center;
+}
+
+.Home #socialmedia a {
+  height: auto;
+  color: #ffffff;
+}
+
+.Home #footerText {
+  font-size: 1rem;
+
+}
+
+
+.Cart {
+  background-color: #2c333d;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Cart #cartContainer {
+  background-color: white;
+  border-radius: 10px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.Cart .cartList {
+  display: flex;
+  margin-left: 20px;
+  flex-direction: column;
+  overflow-y: scroll;
+  max-height: 500px;
+}
+
+.Cart .cartListCol {
+  display: flex;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+
+.Cart #cartLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.Cart #cartRight {
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.Cart #cartRight h1 {
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.Cart #buttonCart {
+  display: flex;
+  justify-content: center;
+
+}
+
+.Cart #buttonBack {
+  margin-right: 5px;
+  background: red;
+}
+
+.Cart #buttonProceed {
+  margin-left: 5px;
+  background: rgb(52, 255, 86);
+}
+
+.Cart #showMobile {
+  display: none;
+}
+
+
+.Cart #paymentMethod {
+
+  justify-content: space-evenly;
+  display: flex;
+}
+
+
+
+
+
+@media (max-width:1024px) {
+  .firstPage #descriptionUs p {
+    font-size: 20px;
+    margin-left: 35px;
+    width: 90%;
+  }
+
+  .firstPage #descriptionUs h2 {
+    font-size: 40px;
+    margin-left: 35px;
+    width: 90%;
+  }
+
+  .firstPage #descriptionOwner p {
+    font-size: 20px;
+    margin-right: 35px;
+    width: 90%;
+  }
+
+  .firstPage #descriptionOwner h2 {
+    margin-right: 35px;
+    width: 90%;
+    font-size: 40px;
+  }
+
+  .firstPage .aboutUs {
+    width: 300px;
+  }
+
+  .firstPage .aboutOwner {
+    width: 300px;
+  }
+
+  .firstPage #descriptionImage .aboutOwner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+  }
+
+
+  .Login #loginPageContainer {
+    height: 600px;
+    background-color: rgb(15, 15, 15);
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .Cart #cartContainer {
+    width: 90%;
+  }
+}
+
+
+
+@media (max-width:1024px) {
+  .firstPage #descriptionUs p {
+    font-size: 20px;
+    margin-left: 35px;
+    width: 90%;
+  }
+
+  .firstPage #descriptionUs h2 {
+    font-size: 40px;
+    margin-left: 35px;
+    width: 90%;
+  }
+
+  .firstPage #descriptionOwner p {
+    font-size: 20px;
+    margin-right: 35px;
+    width: 90%;
+  }
+
+  .firstPage #descriptionOwner h2 {
+    margin-right: 35px;
+    width: 90%;
+    font-size: 40px;
+  }
+
+  .firstPage #nav-ul {
+    width: 50%;
+  }
+
+  .firstPage .aboutUs {
+    width: 300px;
+  }
+
+  .firstPage .aboutOwner {
+    width: 300px;
+  }
+
+  .firstPage #descriptionImage .aboutOwner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+  }
+
+
+  .Login #loginPageContainer {
+    height: 700px;
+    background-color: rgb(15, 15, 15);
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+
+@media (max-width:768px) {
+
+  .firstPage #descriptionUs p {
+    font-size: 16px;
+    margin-left: 35px;
+    width: 90%;
+  }
+
+  .firstPage #descriptionUs h2 {
+    font-size: 40px;
+    margin-left: 35px;
+    width: 90%;
+  }
+
+  .firstPage #descriptionOwner p {
+    font-size: 16px;
+    margin-right: 35px;
+    width: 90%;
+  }
+
+  .firstPage #descriptionOwner h2 {
+    margin-right: 35px;
+    width: 90%;
+    font-size: 40px;
+  }
+
+  .firstPage .aboutUs {
+    width: 250px;
+  }
+
+  .firstPage .aboutOwner {
+    width: 250px;
+  }
+
+
+  .Login #loginPageContainer {
+    height: 600px;
+    background-color: rgb(15, 15, 15);
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .Login .inputValuePassword {
+    height: 30px;
+    width: 250px;
+    border-radius: 6px;
+  }
+
+
+  .Login .inputValueUsername {
+    height: 30px;
+    width: 250px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+  }
+
+  .Login h1 {
+    color: white;
+    font-size: 20px;
+  }
+
+  .Cart .cartListCol img {
+    width: 150px !important;
+  }
+
+  .Cart #cartRight h1 {
+    font-size: 35px;
+  }
+
+  .Cart #cartLeft {
+    margin-right: 30px;
+  }
+}
+
+
+
+@media (max-width:576px) {
+
+
+  .firstPage #aboutUs {
+    justify-content: center;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .firstPage #aboutOwner {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .firstPage #descriptionUs p {
+    text-align: center;
+    margin: 0px;
+    width: 80%;
+
+  }
+
+  .firstPage #descriptionUs h2 {
+    text-align: center;
+    margin: 0px;
+    width: 80%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  .firstPage #descriptionOwner p {
+    margin: 0px;
+    text-align: center;
+  }
+
+  .firstPage #descriptionOwner h2 {
+    margin: 0px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  .firstPage #descriptionUs {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .firstPage #descriptionOwner {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .firstPage #descriptionImage .aboutOwner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+
+  .firstPage #socialmedia {
+    height: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .firstPage #mainNavbar {
+    height: auto;
+  }
+
+  .firstPage #nav-ul {}
+
+  .firstPage #hamburger {
+
+    display: flex;
+  }
+
+  .Cart #buttonCart {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Cart #buttonBack {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .Cart #buttonProceed {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+
+@media (max-width:501px) {
+  .Cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .Cart #cartRight {
+    display: none;
+  }
+
+  .Cart .cartListCol {
+    justify-content: center;
+  }
+
+  .Cart .cartContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Cart #cartLeft {
+    width: 100%;
+    justify-content: center;
+    margin-right: 0px;
+    align-items: center;
+  }
+
+  .Cart .cartList {
+    margin-left: 0px;
+  }
+
+  .Cart .cartList {
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    overflow-y: scroll;
+    max-height: 600px;
+  }
+
+  .Cart #showMobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Cart #showMobileButtonCart {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .Cart #showMobileh1 {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+@media (max-width:375px) {
+  .Login #loginPageContainer {
+    height: 620px;
+    background-color: rgb(15, 15, 15);
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .Login .inputValuePassword {
+    height: 30px;
+    width: 250px;
+    border-radius: 6px;
+  }
+
+
+  .Login .inputValueUsername {
+    height: 30px;
+    width: 250px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+  }
+
+  .Login h1 {
+    color: white;
+    font-size: 20px;
+  }
+}
